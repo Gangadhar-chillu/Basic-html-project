@@ -1,0 +1,118 @@
+body{
+    background-color: #000000;
+}
+.Box{
+    width: 200px;
+    height: 250px;
+    border: 2px solid none;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgba(83, 77, 77, 1.0);
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: 50px;
+    outline: 10px solid grey;
+
+}
+#Gangu{
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-align: center;
+}
+Div>p{
+    text-align: center;
+}
+.icons{ 
+    display: inline-block;
+    text-align: center;
+}
+.msg{ 
+    font-size: small;
+    background-color: rgb(150,120,120);
+    color: rgb(181,174,166);
+    padding: 5px;
+    border: 2px solid none;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: 30px;
+}
+.sub{ 
+    font-size: small;
+    background-color: rgb(150,120,120);
+    color: rgb(181, 174, 166);
+    padding: 5px;
+    border: 2px solid none;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 30px;
+}
+/* Assign 4 */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color:#000000;
+}
+header>nav>ul{
+    list-style-type: none;
+    float:right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+    color: #fff;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+header>nav>ul>li>a{
+    color:black;
+    text-decoration: none;
+}
+header>nav>ul>li:hover a{
+    color:black;
+}
+header>nav>img{
+    height:64px;
+}
+.gang{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: relative;
+    left: 30px;
+}
+.commonBanner{
+    padding:30px;
+    color:blue;
+    text-align: center;
+    height: 400px;
+}
+.banner1{
+    background-color: #008080;
+    background-image:url(../images/nature.jpg);
+}
+.commonBanner>h1{
+    border: 2px solid none;
+    font-size: 60px;
+}
+.commonBanner>h1:hover{
+    color:#000;
+}
+
+
+
+

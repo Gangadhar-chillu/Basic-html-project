@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>MARQUEE TAG</title>
+    </head>
+    <body>
+        <center>
+            <h1>Marquee Tag..!</h1>
+        </center>
+        <hr>
+
+        <marquee>THIS IS A DEFAULT MARQUEE TAG..!</marquee>
+        <marquee><a href="#">THIS IS A MARKQUEE TAG..!</a></marquee>
+        <marquee bgcolor="skyblue">THIS IS A MARQUEE TAG..!</marquee>
+        <br><hr><br>
+
+        <marquee bgcolor="skyblue" behaviour="alternate">THIS IS A ALTERNATE MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="grey" behaviour="scroll">THIS IS A SCROLL MARQUEE TAG..!</marquee>
+        <br><br>
+    
+        <marquee bgcolor="skyblue" behaviour="slide">THIS IS A SLIDE MARQUEE TAG..!</marquee>
+        <br><br><hr><br>
+
+        <marquee bgcolor="teal" direction="right">THIS IS A RIGHT DIRECTION MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue"  direction="lift">THIS IS ALEFT DIRECTION MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" direction="up" height="100">THIS IS A UP DIRECTION MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee  bgcolor="skyblue" direction="down" height="100">THIS IS A DOWN DIRECTION MARQUEE TAG..!</marquee>
+        <br><br><hr><br>
+
+        <marquee bgcolor="teal" scrollamount="1">THIS IS A MARQUEE TAG</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="20" id="Vinay" onmouseover="stopscroll()" onmouseleave="startscroll();">THIS IS MARQUEE TAG</marquee>
+        <br><br>
+        <marquee bgcolor="teal" scrollamount="10">THIS IS A MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="5">THIS IS A MARQUEE TAG..!</marquee>
+
+        <script>
+            function stopscroll(){
+                document.getElementById("Vinay").stop();
+            }
+            function startscroll(){
+                document.getElementById("Vinay").start();
+            }
+
+        
+        </script>
+
+
+
+    </body>
+
+</html>
